@@ -55,11 +55,11 @@ The dataset has to include the following variables:
 
 <code>District</code> The ENP will be aggregated at this level. It may be coded as a string (e.g., 'Ayacucho', 'Cajamarca', 'Callao'), or as numeric.
 
-<code>Party</code> Party labels running in a given election. This data is not required.
-
 <code>Votes</code> Number of votes for a given party in the district, in a given election year. The dataset do not need to be symmetrical: if a given party did not run in every district, it can be ommitted in those districts. Non-valid votes should be dropped.
 
 <code>Seats</code> Number of seats obtained by a given party in the district in a given election year. When a party did not get any seat in a given district, the cell should be empty.
+
+(<code>Party</code> Party labels running in a given election. Party names are not required.)
 
 Should data include blank and null votes?
 
