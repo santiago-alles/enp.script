@@ -55,19 +55,17 @@ The dataset has to include the following variables:
 
 <code>District</code> The ENP will be aggregated at this level. It may be coded as a string (e.g., 'Ayacucho', 'Cajamarca', 'Callao'), or as numeric.
 
-<code>Votes</code> Number of votes for a given party in the district, in a given election year. The dataset do not need to be symmetrical: if a given party did not run in every district, it can be ommitted in those districts. Non-valid votes should be dropped.
+<code>Votes</code> Number of votes for each party in the district, in a given election year. The dataset do not need to be symmetrical: if a given party did not run in every district, it can be ommitted in those districts. Non-valid votes should be dropped.
 
-<code>Seats</code> Number of seats obtained by a given party in the district in a given election year. When a party did not get any seat in a given district, the cell should be empty.
-
-(<code>Party</code> Party labels running in a given election. Party names are not required.)
+<code>Seats</code> Number of seats obtained by each party in the district, in a given election year. When a party did not get any seat in a district, the cell might be either empty (NA) or coded as '0'.
 
 Should data include blank and null votes?
 
-No. Blank and null votes have to be excluded. Otherwise, the script will count them as a party and the ENP estimation will be wrong.
+No. Blank and null votes have to be excluded. Otherwise, the script will count them as a party, and the resulting ENP estimation will be inaccurate.
 
 What will be the output?
 
-The ENP will be stored in a data frame in memory. If "save" is TRUE, a spreadsheet in a .csv file (which can be also open using Microsoft Excel) will be stored in the working directory, unless another location is defined in the <code>path</code>.
+The ENP will be stored in a data frame in memory. If "save" is TRUE, a spreadsheet in a .csv file (which can be easily open using Microsoft Excel) will be stored in the working directory, unless another location is defined in the <code>path</code>.
 
 Required packages 
 ------------------
