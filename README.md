@@ -36,7 +36,7 @@ Arguments
 
 <code>district</code> Vector in <code>x</code> frame with the district label.
 
-<code>path</code> It sets the working directory where results will be stored if <code>save</code> == T. If not defined, it will use the filepath representing the current working directory.
+<code>path</code> It sets the working directory where results will be stored if <code>save == T</code>. If not defined, it will use the filepath representing the current working directory.
 
 <code>enp_v</code> If TRUE, it estimates the electoral ENP using votes.
 
