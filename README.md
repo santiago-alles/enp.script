@@ -2,6 +2,17 @@
 R Script: Laakso and Taagepera's Effective Number of Parties
 =====================================
 
+Script Version
+------------------
+version 1.5
+
+01/05/2020
+
+Previous releases:
+<pre>v. 1.4      08/01/2017
+v. 1.3      09/09/2014
+v. 1.2      08/10/2014</pre>
+
 Description
 ------------------
 This function provides the Laakso and Taagepera's Effective Number of Parties (ENP) for both seats and votes. It stores the ENP in a data frame, and it may print the results into an output file.
@@ -9,7 +20,7 @@ This function provides the Laakso and Taagepera's Effective Number of Parties (E
 Availability
 ------------------
 The script can be called directly from the repository:
-<pre><code>source('https://raw.github.com/santiago-alles/enp.script/master/enp.v1.4.r')</code></pre>
+<pre><code>source('https://raw.github.com/santiago-alles/enp.script/master/enp.v1.5.r')</code></pre>
 
 Usage
 ------------------
@@ -19,7 +30,7 @@ Usage
           year = "year", chamber = "chamber", district = "district",
           path = getwd(),
           enp_v = T, enp_s = T,
-          save = F )</code></pre>
+          save = F, target_file = '' )</code></pre>
 
 Arguments
 ------------------
@@ -44,6 +55,8 @@ Arguments
 
 <code>save</code> If FALSE, it only keeps a data frame in memory with the results. If TRUE, it additionally stores a file with the results in a new, self-generated folder (see: <code>path</code> above).
 
+<code>target_file</code> A character string naming a file. "" indicates an output filename will be automatically generated.
+
 Input Data
 ------------------
 
@@ -65,12 +78,12 @@ No. Blank and null votes have to be excluded. Otherwise, the script will count t
 
 What will be the output?
 
-The ENP will be stored in a data frame in memory. If "save" is TRUE, a spreadsheet in a .csv file (which can be easily open using Microsoft Excel) will be stored in the working directory, unless another location is defined in the <code>path</code>.
+The ENP will be stored in a data frame in memory. If <code>save</code> is TRUE, a spreadsheet in a .csv file will be stored in the working directory, unless another location is defined in the <code>path</code>. If no filename is provided in <code>target_file</code>, a filename will be generated.
 
 Required packages 
 ------------------
 
-<pre><code>doBy</pre></code>
+<pre><code>dplyr</pre></code>
 <pre><code>stringr</pre></code>
 
 If not installed, the function will try to install them.
