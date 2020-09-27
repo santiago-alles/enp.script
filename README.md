@@ -1,17 +1,13 @@
-# enp.script
 R Script: Laakso and Taagepera's Effective Number of Parties
 =====================================
+
+Last update:
+------------------
+01-05-2020
 
 Script Version
 ------------------
 version 1.5
-
-01/05/2020
-
-Previous releases:
-<pre>v. 1.4      08/01/2017
-v. 1.3      09/09/2014
-v. 1.2      08/10/2014</pre>
 
 Description
 ------------------
@@ -87,3 +83,11 @@ Required packages
 <pre><code>stringr</pre></code>
 
 If not installed, the function will try to install them.
+
+Previous Releases
+------------------
+
+Previous versions of this code:
+<pre>v. 1.4      08/01/2017
+v. 1.3      09/09/2014
+v. 1.2      08/10/2014</pre>
