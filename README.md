@@ -88,6 +88,6 @@ Previous Releases
 ------------------
 
 Previous versions of this code:
-<pre>v. 1.4      08/01/2017
-v. 1.3      09/09/2014
-v. 1.2      08/10/2014</pre>
+<pre>v. 1.4      08-01-2017
+v. 1.3      09-09-2014
+v. 1.2      08-10-2014</pre>
