@@ -3,11 +3,11 @@ R Script: Laakso and Taagepera's Effective Number of Parties
 
 Last update:
 ------------------
-01-05-2020
+11-21-2020
 
 Script Version
 ------------------
-version 1.5
+version 1.51
 
 Description
 ------------------
@@ -88,6 +88,7 @@ Previous Releases
 ------------------
 
 Previous versions of this code:
-<pre>v. 1.4      08-01-2017
+<pre>v. 1.5      01-05-2020
+v. 1.4      08-01-2017
 v. 1.3      09-09-2014
 v. 1.2      08-10-2014</pre>
