@@ -2,9 +2,9 @@
 #### Effective Number of Parties
 #### by Santiago Alles (PhD, Rice University)
 
-#### Updated to: 11/17/2020
+#### Updated to: 11/21/2020
 #### version 1.51
-#### Available at: http://www.santiago-alles.net/
+#### Available at: https://github.com/santiago-alles/
 
 
 enp.FUN <- function( data, 
